@@ -18,12 +18,14 @@ const displayCouteys = (country) => {
 }
 
 const getContry = country => {
+    const { name, flags } = country
+
     return `
- <div class='country'>
- <h2>${country.name.common}</h2>
- <img src="${country.flags.png}">
- </div>
- `
+    <div class='country'>
+        <h2>${name.common}</h2>
+        <img src="${flags.png}">
+    </div>
+    `
 }
 
 
