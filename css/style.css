@@ -1,0 +1,15 @@
+#container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.country{
+    border:2px  solid tomato;
+    /* width:200px; */
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+}
+.country img{
+    width:200px
+}

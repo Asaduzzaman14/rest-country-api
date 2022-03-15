@@ -19,7 +19,7 @@ const displayCouteys = (country) => {
 
 const getContry = country => {
     return `
- <div>
+ <div class='country'>
  <h2>${country.name.common}</h2>
  <img src="${country.flags.png}">
  </div>
